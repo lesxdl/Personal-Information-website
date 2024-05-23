@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+   }
+   
+   header{
+   
+     padding: 0.5px;
+     margin: 10px 50px;
+     display: block;
+     text-align: center;
+   }
+   
+   .container {
+     max-width: 500px;
+     margin: auto;
+     background: grey;
+     padding: 15px;  
+     color: black;
+   }
+   
+   label {
+     display: block;
+     
+   }
+   
+   input{
+     margin-bottom: 10px;
+   }
+   
+   .type {
+     display: block;
+     
+   }
+   
+   select {
+     display: block;
+     margin-bottom: 10px;
+   }
+   
+   .submit {
+   background: green;
+   display: block;
+   width: 100px;
+   margin: 5px auto;
+   padding: 2px;
+   }
+   
+   textarea{
+     width: 100%
+   }
+   
+   .number{
+     width: 34%
+   }

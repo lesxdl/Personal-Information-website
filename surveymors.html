@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    
+     <header> 
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill the survey form with the required information</p>
+    </header>
+  <div class="container">
+  <form id="survey-form">
+     
+    <label id="name-label"><strong>Name</strong></label>
+    <input class ="drop" type="text"id="name" placeholder="Full name" required/>
+   
+    <label id="email-label"><strong>Email</strong></label>
+    <input class ="drop" type="email" id="email" placeholder="Enter your email" required/>
+    
+    <label id="number-label"><strong>Number</strong></label>
+    <input class="number" type="number" id="number" min="11" max="11" placeholder="number" required/>
+     
+
+   <label id="gender-label"><strong>Gender</strong></label> 
+   <select id="dropdown">
+     <option value="male">Male</option>
+     <option value="female">Female</option>
+   </select>
+   
+   <label id="gender-label"><strong>School type</strong></label>
+   <label id="school" class="type"><input type="radio" value="value" name="name"/>Public</label>
+   <label id="school" class="type"><input type="radio" value="value" name="name" />Private</label>
+    
+   <label id="skills"><strong>What skills you want to improve?</strong></label>
+   <label id="skills class="type""><input type="checkbox" value="value" />Programming</label>
+   <label id="skills class="type""><input type="checkbox" value="value" />Communication</label>
+   <label id="skills class="type""><input type="checkbox" value="value" />Gaming</label>
+   <label id="skills class="type""><input type="checkbox" value="value" />Time management</label>
+    
+
+   <label id="feedback"><strong>Feedback</strong></label>
+   <textarea placeholder="Enter your comment"></textarea>
+   
+    <button type="submit" id="submit" class="submit">Submit</button>
+    
+  
+  </form>
+    </div>
+  </body>
+</html>
