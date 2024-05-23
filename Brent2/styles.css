@@ -1,0 +1,259 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+input {
+    position: relative;
+    bottom: 70px;
+    right: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+div {
+    background: greenyellow;
+}
+
+.menu {
+    position: relative;
+    bottom: 69px;
+    float: right;
+    border-radius: 10px;
+}
+
+img {
+    position: relative;
+    bottom: 107px;
+    right: 50px;
+    float: right;
+    width: 20px;
+    height: inherit;
+    margin: 2px;
+    
+    
+}
+.twit {
+height: 20px;
+
+}
+
+.twit, .fb, .insta {
+border-radius: 10px;
+}
+
+h3 /*top row*/{
+    position: relative;
+    bottom: 20px;
+    background-color: #a8a3a3;
+    color: #a8a3a3;
+    padding: 15px;
+}
+
+.lion, .cheeta, .tigre, .wolf {
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.lion {
+    float: left;
+    position: relative;
+    bottom: 50px;
+    right: 25px;
+    width: 350px;
+    height: inherit;
+    border-radius: 10px;
+}
+
+.wolf {
+    
+    position: absolute;
+    top: 370px;
+    left: 1px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 4px solid wheat;
+    width: 109px;
+    height: inherit;
+}
+.tigre {
+    
+    position: absolute;
+    top: 370px;
+    left: 130px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 4px solid wheat;
+    height: 75px;
+}
+.cheeta {
+    
+    position: absolute;
+    top: 370px;
+    left: 250px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 4px solid wheat;
+    width: 109px;
+    height: inherit;
+}
+
+.cap {
+    position: absolute;
+    top: 79px;
+    left: 390px;
+    padding: 10px;
+    list-style-type: none;
+    background: #614141;
+    font-size: 40px;
+    border: 5px solid wheat;
+    border-radius: 20px;
+}
+
+.textL{
+   position: absolute; 
+   top: 150px;
+   left: 390px;
+   background: wheat;
+   width: inherit;
+   
+   padding: 10px;
+   border-radius: 10px;
+   height: 160px;
+}
+
+.pre {
+    position: absolute;
+    top: 400px;
+    left: 420px;
+    width: 100px;
+    height: 50px;
+    background-color: wheat;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.pre:hover, .next:hover {
+    background-color: #8a3e3e;
+}
+
+.next {
+    position: absolute;
+    top: 400px;
+    left: 520px;
+    width: 100px;
+    height: 50px;
+    background-color: wheat;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.select {
+    position: absolute;
+    top: 630px;
+    left: 185px;
+    width: 80px;
+    height: auto;
+    background-color: white;
+    
+    border-radius: 15px;
+}
+.select:hover{
+    background-color: #3161a8;
+}
+
+.aqua {
+    position: absolute;
+    top: 550px;
+    left: 1px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 4px solid rgb(0, 2, 92);
+    width: 160px;
+    height: inherit;
+}
+
+.cap1 {
+    position: absolute;
+    top: 570px;
+    left: 185px;
+    padding: 10px;
+    list-style-type: none;
+    background: #3161a8;
+    font-size: 20px;
+    border: 5px solid rgb(0, 9, 133);
+    border-radius: 20px;
+}
+
+.bird {
+    position: absolute;
+    top: 550px;
+    left: 285px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 4px solid rgb(95, 0, 0);
+    width: 160px;
+    height: inherit;  
+}
+
+.cap2 {
+    position: absolute;
+    top: 570px;
+    left: 470px;
+    padding: 10px;
+    list-style-type: none;
+    background: #b32e2e;
+    font-size: 20px;
+    border: 5px solid rgb(95, 0, 0);
+    border-radius: 20px;
+}
+
+.select1 {
+    position: absolute;
+    top: 630px;
+    left: 470px;
+    width: 80px;
+    height: auto;
+    background-color: white;
+    
+    border-radius: 15px;
+}
+.select1:hover{
+    background-color: #b32e2e;
+}
+
+.reptile {
+    position: absolute;
+    top: 550px;
+    left: 570px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 4px solid rgb(38, 0, 73);
+    width: 160px;
+    height: inherit;  
+}
+
+.cap3 {
+    position: absolute;
+    top: 570px;
+    left: 755px;
+    padding: 10px;
+    list-style-type: none;
+    background: #743eb3;
+    font-size: 20px;
+    border: 5px solid rgb(38, 0, 73);
+    border-radius: 20px;
+}
+
+.select2 {
+    position: absolute;
+    top: 630px;
+    left: 755px;
+    width: 80px;
+    height: auto;
+    background-color: white;
+    
+    border-radius: 15px;
+}
+.select2:hover{
+    background-color: #743eb3;
+}

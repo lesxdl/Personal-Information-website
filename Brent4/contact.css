@@ -1,0 +1,187 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+  .container1{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.navbar{
+    float: right;
+}
+
+
+
+.logo{
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.title{
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.nav-link{
+    position: relative;
+    margin: 0px 10px;
+}
+
+.nav-link::after{
+    content: '';
+    transition: all 0.5s;
+    height: 2px;
+    width: 100%;
+    background-color: aqua;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.containr_logIn{
+    max-width: 300px;
+    min-height: 5%;
+    margin-top: 50px;
+    padding: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.containr_logIn{
+    background-size: cover;
+    min-height: 10vh;
+}
+
+.search{
+    
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: rgb(197, 197, 197);
+    width: 300px;
+    transition: box-shadow 0.25s;
+    
+}
+
+.container2{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px 10px 0px;
+}
+
+.search:focus-within{
+    box-shadow: 0 0 2px black;
+}
+
+.search-input{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+#contact{
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    
+  }
+  
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+ .containers{
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts{
+    width: 250px;
+    margin: 5px;
+}
+
+  .had-titl{
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+  }
+
+  .img-logs > img{
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+  }
+
+  .num, .txt , .int, .loc{
+    text-align: center;
+    margin: 0px;
+  }
+
+  .loc{
+    margin-bottom: 3px;
+  }
+
